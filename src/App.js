@@ -1,9 +1,9 @@
 import './App.css';
-import Navbar from './components/Navbar';
-import Home from './components/Home';
-import Cart from './components/Cart';
-import Products from './components/Products';
-import Product from './components/Product';
+import Navbar from './components/Navbar/Navbar';
+import Home from './components/Home/Home';
+import Cart from './components/Cart/Cart';
+import Products from './components/Products/Products';
+import Product from './components/Product/Product';
 import {Switch,Route} from 'react-router-dom';
 
 function App() {

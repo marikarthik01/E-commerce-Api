@@ -1,5 +1,5 @@
 import React from 'react';
-import '../App.css';
+import '../../App.css';
 import { NavLink } from "react-router-dom";
 import { useSelector } from 'react-redux';
 
@@ -42,6 +42,7 @@ export default function Navbar() {
                     </div>
                 </div>
             </nav>
+           
         </div>
     )
 }

@@ -1,13 +1,19 @@
 import React from 'react';
-import '../App.css';
-import Background from '../assets/background.jpg';
-import Background2 from '../assets/background2.jpg';
-import Background3 from '../assets/background3.PNG';
-import Products from './Products';
+import './Home.css';
+import Background from '../../assets/background.jpg';
+import Background2 from '../../assets/background2.jpg';
+import Background3 from '../../assets/background3.PNG';
+import Products from '../Products/Products';
 
 export default function Home() {
     return (
         <div className="hero">
+             <div>
+                <form class="form-outer">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search Products here...." aria-label="Search" />
+                    <button class="btn  btn-outline-dark my-sm-0 " id="search" type="submit"><i className="fa fa-search me-1"></i></button>
+                </form>
+            </div>
             <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
                 <div class="carousel-indicators">
                     <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
